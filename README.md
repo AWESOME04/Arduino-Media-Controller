@@ -6,6 +6,7 @@ The datasheet for the Arduino Nano 33 BLE states that the device is HID compatib
 The Nano 33 BLE boards have their own “USBHID” library that uses the Mbed OS HID functionality. Unfortunately, these libraries do not come with examples as of now.
 
 
+
 Goals and objectives
 
 •	Learn how to convert Nano 33 BLE SENSE into a HID device and send keyboard commands to the computer. The following areas were explored:
@@ -17,6 +18,7 @@ Goals and objectives
 •	Remote control
 
 
+
 Hardware and Software Required
 
 •	An Arduino Nano 33 BLE Sense board
@@ -26,6 +28,7 @@ Hardware and Software Required
 •	To program the board, I used the  Arduino IDE. 
 
 •	Any compatible media player capable of playing mp3 or mp4 on a computer.
+
 
 
 
@@ -58,7 +61,10 @@ int main(void)
 }
 
 
+
+
 Combining HID and Gesture Sensor
+
 
 Project Setbacks
 
