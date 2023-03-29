@@ -1,5 +1,7 @@
 # Arduino-Media-Controller
 
+![maxdefault](https://user-images.githubusercontent.com/102630199/228666201-3adebb35-e9d2-43df-9478-8624345b5d24.jpg)
+
 This project involves using the internal APDS9960 Gesture Sensor to read gesture data and use the HID features to play/pause, mute/unmute, and change music tracks playing on your laptop. 
 
 The datasheet for the Arduino Nano 33 BLE states that the device is HID compatible but the existing keyboard and mouse libraries by Arduino are not compatible with the Nano 33 BLE (as of now). 
